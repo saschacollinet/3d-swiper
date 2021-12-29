@@ -1,7 +1,13 @@
+import styled from "styled-components/macro";
+
 export default function App() {
   return (
-    <div>
+    <Wrapper>
       <div></div>
-    </div>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.div`
+  display: flex;
+`;
