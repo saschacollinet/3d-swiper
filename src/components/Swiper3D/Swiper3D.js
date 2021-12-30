@@ -262,6 +262,7 @@ const Back = styled.div`
   align-items: center;
   transform: rotateY(180deg);
   border-radius: 1rem;
+  backface-visibility: hidden;
 
   & a {
     font-size: 2.5rem;

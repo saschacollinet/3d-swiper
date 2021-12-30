@@ -20,6 +20,11 @@ body {
     overflow: hidden;    
 }
 
+.swiper {
+    width: 60%;
+    padding: 50px 0;
+}
+
 .swiper-slide {
   width: 28rem !important;
   height: 45rem !important;
