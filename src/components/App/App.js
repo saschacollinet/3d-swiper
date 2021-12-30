@@ -1,13 +1,9 @@
-import styled from "styled-components/macro";
+import Swiper3D from "../Swiper3D/Swiper3D";
 
 export default function App() {
   return (
-    <Wrapper>
-      <div></div>
-    </Wrapper>
+    <div>
+      <Swiper3D />
+    </div>
   );
 }
-
-const Wrapper = styled.div`
-  display: flex;
-`;

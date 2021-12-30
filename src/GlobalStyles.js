@@ -5,13 +5,27 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
 }
+
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 body {
     height: 100vh;
-    font-family: Montserrat, sans-serif;    
+    font-family: Montserrat, sans-serif;
+    overflow: hidden;    
+}
+
+.swiper-slide {
+  width: 28rem !important;
+  height: 45rem !important;
+  background-color: #181b1d;
+  border-radius: 1rem;
+  box-shadow: 2rem 2rem 6rem rgba(0, 0, 0, 0.7);
 }
 `;
 
