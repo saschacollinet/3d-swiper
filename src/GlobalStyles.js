@@ -16,7 +16,7 @@ html {
 }
 body {
     height: 100vh;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow: hidden;    
 }
 
